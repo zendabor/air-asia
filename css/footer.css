@@ -1,0 +1,67 @@
+/* .footer__logo{
+    width: 98px;
+    height: 42px
+}
+.footer__logo img {
+    height: 42px;
+} */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__main-container{
+    border-top:1px solid #1a3038 ;
+    padding: 48px 0;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials__item {
+    display: flex;
+    margin-left: 8px;
+    }
+.socials__link:hover {
+    transition: 0.3s;
+    opacity: 0.6;
+    }
+.socials {
+    display: block;
+    }
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+.footer--col--align--right{
+    justify-content: space-between;
+}
+.footer__container {
+        display: flex;
+        justify-content: space-between;
+    }
+.socials__list {
+        display: flex;
+    }
+.service--footer {
+    padding: 40px 40px;
+}
+.bg-facebook {
+    width: 36px; 
+    height: 36px;
+    background: url('../images/icons/socials/css_sprites.png') -10px -10px;
+}
+.bg-telegram {
+    width: 36px; 
+    height: 36px;
+    background: url('../images/icons/socials/css_sprites.png') -66px -10px;
+}
+.bg-instagram {
+    width: 36px;
+    height: 36px;
+    background: url('../images/icons/socials/css_sprites.png') -10px -66px;
+}
+.bg-vkontakte {
+    width: 36px; 
+    height: 36px;
+    background: url('../images/icons/socials/css_sprites.png') -66px -66px;
+}

@@ -1,0 +1,87 @@
+.contacts{
+    font-style: normal;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    }
+    
+.contacts__phone{
+    margin-bottom: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.1;
+    }  
+.contacts__dropdown-title{
+    font-size: 13px;
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+    letter-spacing: -.4px;
+    position: relative;
+    color:#fff;
+    }  
+.сontacts__drop {
+    background: #fff;
+    opacity: 0;
+    border-radius: 6px;
+    width: 150px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    opacity: 0;
+}
+.сontacts__drop:after {
+    content: "";
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    bottom: 100%;
+    right: 43px;
+}
+.сontacts__drop:before  {
+    content: "";
+    border: 10px solid transparent;
+    position: absolute;
+    width: 100%;
+    bottom: 68px;
+    left: 0px;
+}
+.contacts:hover .сontacts__drop{
+    transition: opacity .6s;
+    opacity: 1;
+}
+.contacts__item-up {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 21px;
+}
+.contacts__item-down {
+    font-size: 13px;
+    line-height: 21px;
+}
+.contacts__list {
+    color: black;
+    padding: 18px 14px 16px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer__contacts {
+        margin-left: 75px;
+    }
+.contacts-free {
+        color: #9a9a9a;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: end;
+    }
+.contacts__phone {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 26px;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+        }

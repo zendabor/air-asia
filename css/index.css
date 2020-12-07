@@ -1,0 +1,20 @@
+@import url("./normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("./base.css");
+@import url("./wrapper.css");
+@import url("./header.css");
+@import url("./btn.css");
+@import url("./salute.css");
+@import url("./tour.css");
+@import url("./news.css");
+@import url("./about.css");
+@import url("./footer.css");
+@import url("./paginator.css");
+@import url("./menu.css");
+@import url("./contacts.css");
+@import url("./partners.css");
+@import url("./service.css");
+@import url("./welcome.css");
+@import url("./reviews.css")
+
+

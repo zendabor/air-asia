@@ -1,0 +1,25 @@
+.menu{
+   
+    margin-left: 65px;
+}
+.menu__item{ 
+    margin-left: 55px;
+}
+.menu__item:first-child {
+    margin: 0;
+}
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    }
+.menu__link:hover{
+    color:red;
+    transition: 0.5s;
+    }
+.menu__ul {
+        display: flex;
+    }
+.menu__link--active {
+    color: red;
+}

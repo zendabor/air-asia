@@ -1,0 +1,67 @@
+.btn {
+    padding: 16px 39px;
+    border-radius: 26px;
+    text-align: center;
+    background-color: red;
+    text-transform: uppercase;
+    border: 1px solid red;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    transition: .3s linear;
+}
+.btn:hover {
+    background-color: #d21d16;
+    color: #fff;
+    transition: .3s linear;
+}
+
+.tour-card__button , .btn {
+    border: 1px solid rgba(245, 23, 14, 0.4);
+    background-color: #ffffff;
+    color:#d21d16;
+}
+.black--btn {
+    background-color: #8e8e8e;
+    color: #fff;
+    border: 1px solid #8e8e8e;
+}
+.black--btn:hover{
+    background-color: #2b2b2b;
+    transition: .3s linear;
+}
+.red--btn {
+    background-color: red;
+    color: #fff;
+}
+.red--btn:hover {
+    background-color: #fff;
+    color: black;
+    transition: .3s linear;
+}
+.form__btn {
+    margin-right: 20px;
+}
+.form__btn:last-child {
+    margin-right: 0;
+}
+.welcome__button {
+    padding: 20px 55px;
+    color: #fff;
+    background-color: rgb(255, 115, 0);
+    box-shadow: 0 0 40px rgba(245, 23, 14, 0.15);
+}
+.salute__button {
+    border: 1px solid rgba(245, 23, 14, 0.4);
+    color:#fff;
+    min-width: 165px;
+}
+.about__button , .salute__button {
+background: #f5170e;
+}
+.about__button , .salute__button:hover{
+    background: #da0100;
+    transition: .3s;
+}

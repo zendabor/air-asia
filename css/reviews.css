@@ -1,0 +1,191 @@
+.main__reviews {
+    background: url(../images/bg/headline.jpg) center center/cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.breadcrumbs--container {
+    color: #fff;
+}
+.reviews {
+    column-count: 2;
+    column-gap:30px;
+    padding-top: 100px;
+    padding-bottom: 41px;
+}
+.reviews__title {
+    font-size: 72px;
+    font-weight: bold;
+}
+.review {
+    display: inline-flex;
+    flex-direction: column;
+}
+.avatar {
+    width: 139px;
+    height: 139px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.avatar__img {
+    width: 100%;
+}
+
+.reviews__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.review__info {
+    padding-left: 20px;
+}
+.review__user{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 14px;
+    text-decoration: none;
+}
+.review__user:hover {
+    color: #2e77a4;
+    text-decoration: underline;
+}
+.review__user:after {
+    content: url("../images/icons/socials/vk-blue.png");
+    height: 30px;
+    margin-left: 8px;
+}
+.review__tag {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.reviews__item {
+    margin-bottom: 20px;
+    background-color: #f4f5f5;
+    border-radius: 7px;
+    padding: 50px 30px 30px;
+}
+.review__tag-item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.tag {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #333;
+    padding: 12px 16px;
+    border-radius: 50px;
+    background:#e7e7e7;
+    cursor: pointer;
+}
+.tag:active {
+    background:#b9eae4;
+}
+.review__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.review__text p {
+    margin-bottom: 50px;
+    color: #818181;
+    margin-top: 30px;
+    line-height: 27px;
+}
+.review__date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #1a1b1e;
+}
+.middleline {
+    background:url("../images/decor/couple.png") right 30% bottom 5% no-repeat,  url('../images/bg/middleline.jpg') center center/cover no-repeat;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+}
+.middleline__content {
+    max-width: 50%;
+}
+.form__section h2 {
+    padding-bottom: 35px;
+    font-weight: bold;
+    font-size: 48px;
+}
+.middleline__title {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.form__section {
+    background-color: #f4f5f5;
+    padding-bottom: 92px;
+    padding-top: 66px;
+}
+.form__row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 19px 29px;
+    font-size: 18px;
+}
+.form__input:last-child {
+    margin-right: 0;
+}
+.form__input::placeholder{
+    color: #666;;
+}
+.form__input--textarea {
+    height: 232px;
+    width: 100%;
+    resize:none;
+    border: none;
+    padding: 30px;
+}
+.control__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.control__element {
+    cursor: pointer;
+}
+.control__checkbox:checked ~.control__tag{
+    background-color: #b9eae4;
+}
+.control__checkbox {
+    display: none;
+}
+.form__control {
+    display: flex;   
+    margin-bottom: 30px;
+}
+.form__control-title {
+    width: 33%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+}
+.form__btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.control {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+}
